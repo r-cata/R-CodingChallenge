@@ -1,0 +1,125 @@
+* {                        /*tutta la pagina deve avere questo font*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url(img/background.jpg);
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    border-radius: 2%;
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    margin-top: 4%;
+}
+
+header {
+    width: 500px;
+    margin: auto;
+}
+
+#thelogo {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    position: relative;
+    top: 20px;
+}
+
+header > h1 {
+    color: lime;
+    text-align: center;
+}
+
+nav {
+    width: 800px;
+    background-color: rgba(12, 250, 4, 0.5);
+    padding: 8px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    border-radius: 4px;
+}
+
+.prenota {
+    position: relative;
+    right: 6px;
+}
+
+.luci {
+    position: relative;
+    left: 6px;
+}
+
+main {
+    margin-left: 10px;
+    margin-top: 25px;
+    position: relative;
+    left: 83px;
+    top: 20px;
+}
+
+section > span {
+    font-size: x-large;
+}
+
+.nearest {
+    line-height: 0.5;
+}
+
+.nearest p:last-child {
+    background-color: rgba(255, 177, 33, 0.700);
+    width: 150px;
+    color: black;
+    border-radius: 6px;
+    text-align: center;
+    padding: 7px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 9px;
+}
+
+.mid-opt {
+    line-height: 0.5;
+}
+
+.mid-opt p:last-child {
+    background-color: rgba(0, 255, 0, 0.700);
+    width: 200px;
+    color: black;
+    border-radius: 6px;
+    text-align: center;
+    padding: 7px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 9px;
+}
+
+.further {
+    line-height: 0.5;
+}
+
+.further p:last-child {
+    background-color: rgba(255, 0, 0, 0.700);
+    width: 50px;
+    color: black;
+    border-radius: 6px;
+    text-align: center;
+    padding: 7px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 9px;
+}
+
+footer {
+    color: gray;
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+}
